@@ -16,7 +16,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ActivityAudio" />
-        <activity android:name=".ActivityVideo" />
+        <activity android:name=".ActivityVideo" android:theme="@style/Theme.AppCompat.Light.NoActionBar">>
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
